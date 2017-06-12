@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">bobtogether</string>
+    <string name="info_sign_btn">시작하기</string>
+    <string name="sign_detailInfo_btn">로그인 도움말 보기.</string>
+    <string name="sign_googlesign_btn">로그인</string>
+    <string name="SignActivity_loading">Loading</string>
+    <string name="setting_profile_state_hint">상태메세지를 입력하세요.</string>
+    <string name="setting_profile_nick_name_hint">별명을 입력하세요.</string>
+    <string name="setting_general">설정</string>
+    <string name="setting_profile">프로필</string>
+    <string name="setting_eom">개발자</string>
+    <string name="setting_push_toggle">푸시알림</string>
+    <string name="setting_opensource">오픈 소스 라이센스</string>
+    <string name="chat_send_btn">전송</string>
+    <string name="setting_signout">로그아웃</string>
+    <string name="setting_edit_profile">프로필 수정</string>
+    <string name="setting_set_location">지역 설정</string>
+    <string name="make_bob_btn">만들기</string>
+    <string name="make_bob_date_picker_hint">날짜 설정</string>
+    <string name="make_bob_time_picker_hint">시간 설정</string>
+    <string name="make_bob_title_hint">내용</string>
+    <string name="make_bob_p_num">사람수</string>
+    <string name="make_bob_place">장소</string>
+    <string name="second_fab1">밥 만들기</string>
+    <string name="second_fab2">조건 설정</string>
+    <string name="chat_wait_total_people">목표 사람수</string>
+    <string name="chat_wait_now_people">현재 사람수</string>
+    <string name="chat_wait_join">참여한 사람</string>
+    <string name="chat_wait_time">시간</string>
+    <string name="chat_wait_place">장소</string>
+    <string name="chat_wait_noti_message">목표사람수가 모두 모이면 채팅방이 만들어 집니다.</string>
+    <string name="rotate_dia_rotate">회전</string>
+    <string name="rotate_dia_ok">확인</string>
+</resources>

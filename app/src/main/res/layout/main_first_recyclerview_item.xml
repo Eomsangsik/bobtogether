@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/first_Item_margin"
+    android:layout_marginRight="@dimen/first_Item_margin"
+    android:layout_marginTop="@dimen/first_Item_margin"
+    android:background="@drawable/sub_layout"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/first_iamge"
+        android:layout_width="@dimen/first_image"
+        android:layout_height="@dimen/first_image"
+        android:layout_margin="@dimen/first_image_margin"
+        android:src="@drawable/ramen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/first_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaa"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/first_item_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaa" />
+
+        <TextView
+            android:id="@+id/first_item_pNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaa" />
+
+        <TextView
+            android:id="@+id/first_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaa" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

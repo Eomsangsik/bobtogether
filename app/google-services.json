@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642817675133",
+    "project_id": "bobtogether-169109"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642817675133:android:8c932e8bf31cb91a",
+        "android_client_info": {
+          "package_name": "com.yesjam.bobtogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642817675133-268k7717rs9viqerb77nd45jrhrfrbtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yesjam.bobtogether",
+            "certificate_hash": "f4003be584360d530bee50f41cc0a5c0b67e99ea"
+          }
+        },
+        {
+          "client_id": "642817675133-emldf8n2dedi329vts7sl39e53ttj6ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAq_RhzQ8hUz-ubuDUFT4ytG2UMWO3cho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

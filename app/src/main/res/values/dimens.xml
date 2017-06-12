@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="main_margin">10dp</dimen>
+    <dimen name="setting_profile_size">100dp</dimen>
+    <dimen name="setting_profile_margin">10dp</dimen>
+    <dimen name="setting_text_margin">20dp</dimen>
+    <dimen name="second_image">100dp</dimen>
+    <dimen name="second_image_margin">10dp</dimen>
+    <dimen name="second_Item_margin">10dp</dimen>
+    <dimen name="first_image">60dp</dimen>
+    <dimen name="first_image_margin">10dp</dimen>
+    <dimen name="first_Item_margin">10dp</dimen>
+    <dimen name="chat_bubble_margin">10dp</dimen>
+    <dimen name="chat_text_padding">10dp</dimen>
+    <dimen name="chat_item_profile_size">40dp</dimen>
+    <dimen name="chat_item_profile_margin">10dp</dimen>
+    <dimen name="setting_text_size">15dp</dimen>
+    <dimen name="setting_item_size">50dp</dimen>
+    <dimen name="setting_margin">10dp</dimen>
+    <dimen name="second_fab_margin">16dp</dimen>
+    <dimen name="make_bob_et_width">250dp</dimen>
+    <dimen name="make_bob_img_size">100dp</dimen>
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="make_bob_margin">10dp</dimen>
+    <dimen name="open_source_margin">10dp</dimen>
+    <dimen name="joined_item_margin">10dp</dimen>
+    <dimen name="joined_profile_img_size">50dp</dimen>
+    <dimen name="joined_profile_img_margin">10dp</dimen>
+    <dimen name="chat_wait_margin">10dp</dimen>
+
+    <dimen name="default_margin">10dp</dimen>
+</resources>

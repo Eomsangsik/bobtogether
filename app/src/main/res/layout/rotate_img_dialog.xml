@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="280dp"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/rotate_img_dialog_imgView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:src="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rotate_img_dialog_rotate_btn"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="1"
+            android:background="@drawable/black_border_btn"
+            android:text="@string/rotate_dia_rotate" />
+
+
+        <Button
+            android:id="@+id/rotate_img_dialog_ok_btn"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="1"
+            android:background="@drawable/black_border_btn"
+            android:text="@string/rotate_dia_ok" />
+
+    </LinearLayout>
+
+</LinearLayout>

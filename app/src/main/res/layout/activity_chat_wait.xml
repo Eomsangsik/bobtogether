@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat_wait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.yesjam.bobtogether.ChatWaitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/chat_wait_margin"
+            android:layout_marginLeft="@dimen/chat_wait_margin"
+            android:layout_marginRight="@dimen/chat_wait_margin"
+            android:layout_marginTop="@dimen/chat_wait_margin"
+            android:layout_weight="1"
+            android:background="@drawable/sub_layout"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_wait_place" />
+
+            <TextView
+                android:id="@+id/chat_wait_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_wait_time" />
+
+            <TextView
+                android:id="@+id/chat_wait_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/chat_wait_margin"
+            android:layout_marginRight="@dimen/chat_wait_margin"
+            android:layout_marginTop="@dimen/chat_wait_margin"
+            android:layout_weight="1"
+            android:background="@drawable/sub_layout"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_wait_total_people" />
+
+            <TextView
+                android:id="@+id/chat_wait_tNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_wait_now_people" />
+
+            <TextView
+                android:id="@+id/chat_wait_nNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/chat_wait_noti_message" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/chat_wait_margin"
+        android:text="@string/chat_wait_join" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/joined_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
